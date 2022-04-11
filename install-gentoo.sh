@@ -131,6 +131,10 @@ grub-mkconfig -o /boot/grub/grub.cfg
 emerge sys-boot/os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
 
+emerge net-misc/wget
+cd ~
+wget https://raw.githubusercontent.com/rushia272/gentoo-install-script/main/install-gentoo-2.sh
+
 echo  Now reboot into gentoo
 echo After reboot open "install-gentoo-2.sh"
 read -n 1 -r -s -p $'Press enter to continue...\n'
