@@ -56,7 +56,7 @@ chmod 1777 /dev/shm /run/shm
 #entering chroot
 chroot /mnt/gentoo /bin/bash
 source /etc/profile
-export PS1="(chroot) ${PS1}"
+
 
 mount /dev/sda1 /boot
 
