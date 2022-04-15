@@ -15,6 +15,7 @@ mkfs.ext4 /dev/$rootpartition
 echo "Select boot partition"
 read bootpartition
 mkfs.fat -F 32 /dev/$bootpartition
+export bootpartition
 
 echo "Select swap partition"
 read swappartition
