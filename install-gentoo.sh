@@ -58,32 +58,3 @@ chmod 1777 /dev/shm /run/shm
 #entering chroot
 chroot /mnt/gentoo /bin/bash run-in-chroot.sh
 #end of script
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
