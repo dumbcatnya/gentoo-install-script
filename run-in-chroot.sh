@@ -82,8 +82,5 @@ wget https://raw.githubusercontent.com/rushia272/gentoo-install-script/main/inst
 echo  Now reboot into gentoo
 echo After reboot open "install-gentoo-2.sh"
 read -n 1 -r -s -p $'Press enter to continue...\n'
-exit
-cd
-umount -l /mnt/gentoo/dev{/shm,/pts,}
-umount -R /mnt/gentoo
 reboot
+#end of script
