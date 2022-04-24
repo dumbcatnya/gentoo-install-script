@@ -2,6 +2,7 @@
 echo "Type new username:"
 read username
 useradd -m -G users,wheel,audio -s /bin/bash $username
+echo "Type password:"
 passwd $username
 
 emerge app-portage/gentoolkit
