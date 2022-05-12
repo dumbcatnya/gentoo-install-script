@@ -20,7 +20,7 @@ echo "C.UTF8 UTF-8" >> /etc/locale.gen
 locale-gen
 eselect locale list
 echo "Set locale"
-var locale
+read locale
 eselect locale set $locale
 
 #reload environment
