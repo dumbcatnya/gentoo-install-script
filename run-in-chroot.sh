@@ -77,7 +77,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 emerge net-misc/wget
 cd ~
-wget https://raw.githubusercontent.com/rushia272/gentoo-install-script/main/install-gentoo-2.sh
+wget https://raw.githubusercontent.com/rushia27/gentoo-install-script/main/install-gentoo-2.sh
 
 echo  Now reboot into gentoo
 echo After reboot open "install-gentoo-2.sh"
