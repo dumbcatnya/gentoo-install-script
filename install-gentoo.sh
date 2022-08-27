@@ -30,7 +30,7 @@ swapon /dev/$swappartition
 ntpd -q -g
 
 cd /mnt/gentoo
-wget https://raw.githubusercontent.com/rushia272/gentoo-install-script/main/run-in-chroot.sh
+wget https://raw.githubusercontent.com/rushia27/gentoo-install-script/main/run-in-chroot.sh
 wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20220410T170533Z/stage3-amd64-openrc-20220410T170533Z.tar.xz
 tar xpvf stage3-amd64-openrc-20220410T170533Z.tar.xz --xattrs-include='*.*' --numeric-owner
 
